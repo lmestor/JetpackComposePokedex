@@ -1,5 +1,5 @@
 # JetpackComposePokedex
-A dive-in to Android development straight to Kotlin and Jetpack Compose based off of Philipp Lackner's [tutorial](https://www.youtube.com/watch?v=v0of23TxIKc&list=PLQkwcJG4YTCTimTCpEL5FZgaWdIZQuB7m]).
+A dive-in to Android development straight to using Kotlin and Jetpack Compose based off of Philipp Lackner's [tutorial](https://www.youtube.com/watch?v=v0of23TxIKc&list=PLQkwcJG4YTCTimTCpEL5FZgaWdIZQuB7m]).
 
 While he used a plugin from Android Studio's marketplace to generate JSON to Kotlin data class files, I opted to use an online generator from https://json2kt.com.
 
