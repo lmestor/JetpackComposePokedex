@@ -23,7 +23,7 @@ class PokemonRepository @Inject constructor(
         val response = try {
             api.getPokemonInfo(pokemonName)
         } catch(e: Exception) {
-            return com.plcoding.jetpackcomposepokedex.util.Resource.Error("An unknown error occured.")
+            return com.plcoding.jetpackcomposepokedex.util.Resource.Error("An unknown error occured: ${e}")
         }
         return com.plcoding.jetpackcomposepokedex.util.Resource.Success(response)
     }
