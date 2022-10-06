@@ -5,8 +5,8 @@ import com.google.gson.annotations.SerializedName
 
 data class Stats (
 
-  @SerializedName("base_stat" ) var baseStat : Int?  = null,
+  @SerializedName("base_stat" ) var baseStat : Int  = 0,
   @SerializedName("effort"    ) var effort   : Int?  = null,
-  @SerializedName("stat"      ) var stat     : Stat? = Stat()
+  @SerializedName("stat"      ) var stat     : Stat = Stat()
 
 )
